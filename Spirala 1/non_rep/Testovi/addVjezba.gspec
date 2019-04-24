@@ -1,0 +1,12 @@
+@objects
+    header #header
+    footer #footer
+    glavni #glavniSadrzaj
+
+
+= glavni =
+    glavni:
+        below header 0 px
+        above footer 0 px
+        width ~ 85 % of screen/width
+        centered horizontally inside screen

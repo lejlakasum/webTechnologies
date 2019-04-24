@@ -1,0 +1,165 @@
+{
+  "testId" : "1-commiti.gspec",
+  "name" : "commiti.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  commiti.gspec --url http://localhost/commiti.html --size 1024x768 --htmlreport Commiti",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: commiti.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125192201,
+          "sections" : [ {
+            "name" : "glavni",
+            "place" : {
+              "filePath" : "commiti.gspec",
+              "lineNumber" : 8
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above footer ~ 0 px",
+                "highlight" : [ "glavni", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "glavni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "glavni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "tabela",
+            "place" : {
+              "filePath" : "commiti.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "tabela", "glavni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "tekst",
+            "place" : {
+              "filePath" : "commiti.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ {
+              "name" : "tekst-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "tekst-1", "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "aligned vertically left tabela",
+                "highlight" : [ "tekst-1", "tabela" ]
+              } ]
+            }, {
+              "name" : "tekst-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "tekst-2", "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "aligned vertically left tabela",
+                "highlight" : [ "tekst-2", "tabela" ]
+              } ]
+            }, {
+              "name" : "tekst-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "tekst-3", "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "commiti.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "aligned vertically left tabela",
+                "highlight" : [ "tekst-3", "tabela" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "tabela" : {
+              "area" : [ 48, 327, 480, 469 ]
+            },
+            "footer" : {
+              "area" : [ 0, 845, 996, 48 ]
+            },
+            "tekst-2" : {
+              "area" : [ 48, 258, 900, 34 ]
+            },
+            "glavni" : {
+              "area" : [ 0, 176, 996, 668 ]
+            },
+            "tekst-3" : {
+              "area" : [ 48, 293, 900, 34 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 996, 176 ]
+            },
+            "tekst-1" : {
+              "area" : [ 48, 224, 900, 34 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125190136,
+        "type" : "node"
+      } ],
+      "time" : 1541125184400,
+      "type" : "node"
+    } ]
+  }
+}

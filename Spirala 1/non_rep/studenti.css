@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+}
+
+    #side {
+        float: left;
+        width: 35%;
+        background-color: rgb(230, 226, 226);
+        height: 32em;
+    }
+
+    #glavniSadrzaj {
+        float: left;
+        width: 65%;
+        background-color: #cbcbcb;
+        height: 32em;
+    }
+    #tabela_studenata {
+        margin: auto;
+        margin-top: 6em;
+        width: 65%;
+    }
+
+@media screen and (max-width:600px) {
+    #side {
+        width: 100%;
+        background-color: rgb(230, 226, 226);
+        height: 32em;
+    }
+
+    #glavniSadrzaj {
+        width: 100%;
+        background-color: #cbcbcb;
+        height: 35em;
+    }
+    #tabela_studenata {
+        margin: auto;
+        margin-top: 6em;
+    }
+}
+
+
+#lista_godina li {
+    list-style: none;
+    padding-left: 0.7em;
+    padding-top: 0.7em;
+}
+
+#lista_godina li:hover {
+    list-style: none;
+    background-color: rgb(209, 198, 198);
+    cursor: pointer;
+}
+
+#okvir_godina {
+    background-color: rgb(211, 210, 210);
+    overflow: hidden;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    margin-top: 4em;
+    overflow-y: scroll;
+}
+
+#tekst_godina {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 3em;
+}
+
+
+
+table, th, td {
+    
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 1em;
+}
+td {
+    text-align: center;
+}
+th {
+    background-color: grey;
+}

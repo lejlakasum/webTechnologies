@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-size: 100%;
+    font-family: sans-serif
+}
+#header {
+    background-color: #232427;
+    overflow: hidden;
+    
+}
+
+    #trenutna_stranica {
+        float: right;
+        font-size: 2em;
+        margin-top: -4em;
+        margin-right: 1em;
+        color: white;
+        text-transform: uppercase;
+    }
+
+
+@media screen and (max-width:600px) {
+    #trenutna_stranica {
+        color: white;
+        text-transform: uppercase;
+        float: none;
+        font-size: 2em;
+        margin: 0.5em;
+    }    
+}
+
+#meni li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 0.8em;
+    background-color: #d8590c;
+    padding: 1em;
+    border-radius: 0.2em;
+    text-transform:uppercase;
+}
+
+#meni li:hover {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 0.8em;
+    background-color: #e66f28;
+    padding: 1em;
+    border-radius: 0.2em;
+    text-transform:uppercase;
+}
+
+#meni li a {
+    color: white;
+    text-decoration:none;
+}
+
+#meni { 
+background-color: #d8590c;
+}
+
+#logo {
+    width: 6em;;
+    margin: 1em;
+}
+
+#footer {
+    background-color: #232427;
+    text-align: center;
+    display: table;
+    height: 3em;
+    width: 100%;
+}
+
+#footer_tekst {
+    vertical-align: middle;
+    display: table-cell;
+    color: white
+}

@@ -1,0 +1,21 @@
+@objects
+    header #header
+    footer #footer
+    glavni #glavni
+    tekst-* //div[@id='glavni']/div[@class='tekst']
+    tabela //div[@id='glavni']/table
+
+= glavni =
+    glavni:
+        above footer ~ 0 px
+        below header 0 px
+        width 100 % of screen/width
+
+= tabela =
+    tabela:
+        inside glavni
+
+= tekst =
+    tekst-*:
+        inside glavni
+        aligned vertically left tabela

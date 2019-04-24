@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "header_footer.gspec",
+    "startedAt" : 1541125211843,
+    "endedAt" : 1541125220587,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "1-header-footer.gspec",
+    "duration" : 8744,
+    "failed" : false
+  } ]
+}

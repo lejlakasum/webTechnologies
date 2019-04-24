@@ -1,0 +1,82 @@
+{
+  "testId" : "1-addvjezba.gspec",
+  "name" : "addVjezba.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addVjezba.gspec --url http://localhost/addVjezba.html --size 1024x768 --htmlreport addVjezba",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addVjezba.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125003279,
+          "sections" : [ {
+            "name" : "glavni",
+            "place" : {
+              "filePath" : "addVjezba.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addVjezba.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "glavni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addVjezba.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above footer 0 px",
+                "highlight" : [ "glavni", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addVjezba.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "width ~ 85 % of screen/width",
+                "highlight" : [ "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addVjezba.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "glavni", "screen" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "footer" : {
+              "area" : [ 0, 1136, 996, 48 ]
+            },
+            "glavni" : {
+              "area" : [ 74, 176, 846, 960 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 996, 176 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 996, 1185 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125001884,
+        "type" : "node"
+      } ],
+      "time" : 1541124995791,
+      "type" : "node"
+    } ]
+  }
+}

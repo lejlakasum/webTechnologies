@@ -1,0 +1,22 @@
+@objects
+
+    lijevo #side
+    glavni #glavniSadrzaj
+    header #header
+    footer #footer
+
+= Lijevo =
+    lijevo:
+        width ~ 35% of screen/width
+        below header 0 px
+        above footer 0 px
+        left-of glavni 0 px
+        aligned horizontally all glavni
+
+
+= Glavni =
+    glavni:
+        width ~ 65% of screen/width
+       
+
+

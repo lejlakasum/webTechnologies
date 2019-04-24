@@ -1,0 +1,81 @@
+{
+  "testId" : "1-login.gspec",
+  "name" : "login.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  login.gspec --url http://localhost/login.html --size 1024x768 --htmlreport Login",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: login.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125283050,
+          "sections" : [ {
+            "name" : "loginBox",
+            "place" : {
+              "filePath" : "login.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "loginBox",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "centered all inside screen",
+                "highlight" : [ "loginBox", "screen" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Forma",
+            "place" : {
+              "filePath" : "login.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "loginBox.forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "inside loginBox",
+                "highlight" : [ "loginBox.forma", "loginBox" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "centered all inside loginBox",
+                "highlight" : [ "loginBox.forma", "loginBox" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "loginBox" : {
+              "area" : [ 291, 209, 430, 270 ]
+            },
+            "loginBox.forma" : {
+              "area" : [ 306, 224, 400, 240 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1013, 688 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125281762,
+        "type" : "node"
+      } ],
+      "time" : 1541125275973,
+      "type" : "node"
+    } ]
+  }
+}

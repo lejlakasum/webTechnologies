@@ -1,0 +1,82 @@
+{
+  "testId" : "1-addstudent.gspec",
+  "name" : "addStudent.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addStudent.gspec --url http://localhost/addStudent.html --size 1024x768 --htmlreport addStudent",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addStudent.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541124932442,
+          "sections" : [ {
+            "name" : "glavni",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "glavni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above footer 0 px",
+                "highlight" : [ "glavni", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "width ~ 85 % of screen/width",
+                "highlight" : [ "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "glavni", "screen" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "footer" : {
+              "area" : [ 0, 1136, 996, 48 ]
+            },
+            "glavni" : {
+              "area" : [ 74, 176, 846, 960 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 996, 176 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 996, 1185 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541124931007,
+        "type" : "node"
+      } ],
+      "time" : 1541124925250,
+      "type" : "node"
+    } ]
+  }
+}

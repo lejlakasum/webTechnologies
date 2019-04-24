@@ -1,0 +1,171 @@
+{
+  "testId" : "1-addgodina600.gspec",
+  "name" : "addGodina600.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addGodina600.gspec --url http://localhost/addGodina.html --size 590x768 --htmlreport addGodina600",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addGodina600.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541124905699,
+          "sections" : [ {
+            "name" : "side",
+            "place" : {
+              "filePath" : "addGodina600.gspec",
+              "lineNumber" : 8
+            },
+            "objects" : [ {
+              "name" : "side",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "below header",
+                "highlight" : [ "side", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "above glavni",
+                "highlight" : [ "side", "glavni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "glavni",
+            "place" : {
+              "filePath" : "addGodina600.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "below side",
+                "highlight" : [ "glavni", "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "above footer",
+                "highlight" : [ "glavni", "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "godina",
+            "place" : {
+              "filePath" : "addGodina600.gspec",
+              "lineNumber" : 20
+            },
+            "objects" : [ {
+              "name" : "godina-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "godina-1", "glavni" ]
+              } ]
+            }, {
+              "name" : "godina-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "godina-2", "glavni" ]
+              } ]
+            }, {
+              "name" : "godina-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "godina-3", "glavni" ]
+              } ]
+            }, {
+              "name" : "godina-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addGodina600.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside glavni",
+                "highlight" : [ "godina-4", "glavni" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "side" : {
+              "area" : [ 0, 285, 562, 480 ]
+            },
+            "footer" : {
+              "area" : [ 0, 1245, 562, 48 ]
+            },
+            "glavni" : {
+              "area" : [ 0, 765, 562, 480 ]
+            },
+            "godina-1" : {
+              "area" : [ 32, 797, 163, 182 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 562, 285 ]
+            },
+            "godina-2" : {
+              "area" : [ 259, 797, 163, 182 ]
+            },
+            "godina-3" : {
+              "area" : [ 32, 1043, 163, 182 ]
+            },
+            "godina-4" : {
+              "area" : [ 259, 1043, 163, 182 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541124903831,
+        "type" : "node"
+      } ],
+      "time" : 1541124898125,
+      "type" : "node"
+    } ]
+  }
+}

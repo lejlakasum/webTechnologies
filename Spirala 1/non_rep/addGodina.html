@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>Dodavanje godine</title>
+        <link rel="stylesheet" href="addGodina.css">
+        <link rel="stylesheet" href="header_footer.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="header">           
+            <img id="logo" src="logo.png" alt="Slika logo">
+            
+            <div id="meni">
+                <ul>
+                    <li><a href="zadaci.html">Pregled godina</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="commiti.html">Commiti</a></li>
+                </ul>
+            </div>
+            <div id="trenutna_stranica">Dodavanje godine</div>
+        </div>
+
+        <div id="side">
+            <div class="div_forma">
+                <form class="forma">
+                    <label>Naziv godine</label>
+                    <br>
+                    <input type="text" name="naziv" required>
+                    <br>
+                    <label>Nazivi repozitorija vježbe</label>
+                    <br>
+                    <input type="text" name="rVjezbe" required>
+                    <br>
+                    <label>Nazivi repozitorija spirale</label>
+                    <br>
+                    <input type="text" name="rSpirale" required>
+                    <br>
+                    <input type="reset" value="Poništi">
+                    <input type="submit" value="Unesi">
+                </form>
+            </div>
+        </div>
+        <div id="glavniSadrzaj">
+            <div class="godina">
+                <div class="tekst_godina"> 2015/16</div>
+                <div class="podaci">
+                    <b>Broj studenata: 90</b><br>
+                    <b>Broj vježbi: 10</b><br>
+                    <b>Broj spirala: 4</b>
+                </div>
+            </div>
+            <div class="godina">
+                <div class="tekst_godina"> 2016/17</div>
+                <div class="podaci">
+                    <b>Broj studenata: 90</b><br>
+                    <b>Broj vježbi: 10</b><br>
+                    <b>Broj spirala: 4</b>
+                </div>
+            </div>
+            <div class="godina"></div>
+            <div class="godina"></div>
+        </div>
+
+        <div id="footer">
+            <div id="footer_tekst">Web Tehnologije 2018/19</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+@objects
+    header #header
+    footer #footer
+    side #side
+    glavni #glavniSadrzaj
+    godina-* //div[@id='glavniSadrzaj']/div[@class='godina']
+
+= side =
+    side:
+        width ~ 33 % of screen/width
+        below header
+        above footer
+        aligned horizontally all glavni
+
+= glavni =
+    glavni:
+        width ~ 65 % of screen/width
+        right-of side
+
+= godina =
+    godina-*:
+        inside glavni 

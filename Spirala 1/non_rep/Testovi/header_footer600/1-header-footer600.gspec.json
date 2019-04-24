@@ -1,0 +1,158 @@
+{
+  "testId" : "1-header-footer600.gspec",
+  "name" : "header_footer600.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  header_footer600.gspec --url http://localhost/studenti.html --size 590x768 --htmlreport header_footer600",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: header_footer600.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125243621,
+          "sections" : [ {
+            "name" : "header",
+            "place" : {
+              "filePath" : "header_footer600.gspec",
+              "lineNumber" : 8
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above footer",
+                "highlight" : [ "header", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "below header",
+                "highlight" : [ "footer", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "naslov",
+            "place" : {
+              "filePath" : "header_footer600.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ {
+              "name" : "naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside header",
+                "highlight" : [ "naslov", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "below meni",
+                "highlight" : [ "naslov", "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "meni",
+            "place" : {
+              "filePath" : "header_footer600.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "inside header",
+                "highlight" : [ "meni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "below logo",
+                "highlight" : [ "meni", "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "logo",
+            "place" : {
+              "filePath" : "header_footer600.gspec",
+              "lineNumber" : 28
+            },
+            "objects" : [ {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "header_footer600.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside header",
+                "highlight" : [ "logo", "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 0, 96, 562, 120 ]
+            },
+            "naslov" : {
+              "area" : [ 16, 232, 530, 36 ]
+            },
+            "footer" : {
+              "area" : [ 0, 1357, 562, 48 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 562, 285 ]
+            },
+            "logo" : {
+              "area" : [ 16, 16, 96, 60 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125241885,
+        "type" : "node"
+      } ],
+      "time" : 1541125236094,
+      "type" : "node"
+    } ]
+  }
+}

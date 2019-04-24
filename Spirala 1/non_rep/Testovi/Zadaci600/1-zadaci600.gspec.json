@@ -1,0 +1,336 @@
+{
+  "testId" : "1-zadaci600.gspec",
+  "name" : "zadaci600.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaci600.gspec --url http://localhost/zadaci.html --size 590x768 --htmlreport Zadaci600",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaci600.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125382041,
+          "sections" : [ {
+            "name" : "cetvrtina",
+            "place" : {
+              "filePath" : "zadaci600.gspec",
+              "lineNumber" : 13
+            },
+            "objects" : [ {
+              "name" : "cetvrtina-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "cetvrtina-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "cetvrtina-1", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "above cetvrtina-2 0px",
+                "highlight" : [ "cetvrtina-1", "cetvrtina-2" ]
+              } ]
+            }, {
+              "name" : "cetvrtina-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "cetvrtina-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "below cetvrtina-1 0 px",
+                "highlight" : [ "cetvrtina-2", "cetvrtina-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "above polovina 0px",
+                "highlight" : [ "cetvrtina-2", "polovina" ]
+              } ]
+            } ]
+          }, {
+            "name" : "polovina",
+            "place" : {
+              "filePath" : "zadaci600.gspec",
+              "lineNumber" : 24
+            },
+            "objects" : [ {
+              "name" : "polovina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "polovina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "below cetvrtina-2",
+                "highlight" : [ "polovina", "cetvrtina-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "above footer",
+                "highlight" : [ "polovina", "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "input",
+            "place" : {
+              "filePath" : "zadaci600.gspec",
+              "lineNumber" : 30
+            },
+            "objects" : [ {
+              "name" : "input",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside forma",
+                "highlight" : [ "input", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "search",
+            "place" : {
+              "filePath" : "zadaci600.gspec",
+              "lineNumber" : 34
+            },
+            "objects" : [ {
+              "name" : "search",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside forma",
+                "highlight" : [ "search", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "item",
+            "place" : {
+              "filePath" : "zadaci600.gspec",
+              "lineNumber" : 38
+            },
+            "objects" : [ {
+              "name" : "item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-1", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-2", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-3", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-4", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-5", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside folder-1",
+                "highlight" : [ "item-6", "folder-1" ]
+              } ]
+            }, {
+              "name" : "item-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside folder-2",
+                "highlight" : [ "item-7", "folder-2" ]
+              } ]
+            }, {
+              "name" : "item-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside folder-2",
+                "highlight" : [ "item-8", "folder-2" ]
+              } ]
+            }, {
+              "name" : "item-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside folder-2",
+                "highlight" : [ "item-9", "folder-2" ]
+              } ]
+            }, {
+              "name" : "item-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci600.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside folder-2",
+                "highlight" : [ "item-10", "folder-2" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "item-9" : {
+              "area" : [ 72, 2539, 118, 86 ]
+            },
+            "item-8" : {
+              "area" : [ 223, 2421, 118, 86 ]
+            },
+            "item-7" : {
+              "area" : [ 72, 2421, 118, 86 ]
+            },
+            "item-6" : {
+              "area" : [ 223, 2220, 118, 86 ]
+            },
+            "item-5" : {
+              "area" : [ 72, 2220, 118, 86 ]
+            },
+            "footer" : {
+              "area" : [ 0, 2685, 562, 48 ]
+            },
+            "item-4" : {
+              "area" : [ 223, 2102, 118, 86 ]
+            },
+            "item-3" : {
+              "area" : [ 72, 2102, 118, 86 ]
+            },
+            "item-2" : {
+              "area" : [ 223, 1983, 118, 86 ]
+            },
+            "item-1" : {
+              "area" : [ 72, 1983, 118, 86 ]
+            },
+            "forma" : {
+              "area" : [ 0, 1165, 562, 93 ]
+            },
+            "cetvrtina-2" : {
+              "area" : [ 0, 1085, 562, 800 ]
+            },
+            "cetvrtina-1" : {
+              "area" : [ 0, 285, 562, 800 ]
+            },
+            "input" : {
+              "area" : [ 193, 1173, 174, 30 ]
+            },
+            "search" : {
+              "area" : [ 201, 1220, 160, 30 ]
+            },
+            "folder-2" : {
+              "area" : [ 56, 2370, 449, 271 ]
+            },
+            "folder-1" : {
+              "area" : [ 56, 1933, 449, 389 ]
+            },
+            "item-10" : {
+              "area" : [ 223, 2539, 118, 86 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 562, 285 ]
+            },
+            "polovina" : {
+              "area" : [ 0, 1885, 562, 800 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125378953,
+        "type" : "node"
+      } ],
+      "time" : 1541125373179,
+      "type" : "node"
+    } ]
+  }
+}

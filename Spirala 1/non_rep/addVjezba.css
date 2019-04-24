@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+    background-color:#232427;
+    font-family:sans-serif;
+}
+
+    #glavniSadrzaj {
+        box-sizing: border-box;
+        width: 85%;
+        overflow:hidden;
+        margin:auto;
+        height: 60em;
+        background-color: rgb(230, 226, 226);
+            
+    }
+
+@media screen and (max-width:600px) {
+    #glavniSadrzaj {
+        box-sizing: border-box;
+        width: 100%;
+        overflow:hidden;
+        margin:auto;
+        height: 60em;
+        background-color: rgb(230, 226, 226);  
+    }
+}
+
+.folder {
+    width: 80%;
+    background-color: rgb(211, 210, 210);
+    box-shadow: 5px 10px 8px #888888;
+    margin: auto;
+    overflow:hidden;
+    margin-top: 3em;
+    height: 25em;
+    display: flex;
+    
+}
+
+.tekst {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+label {
+    font-size:1em;
+ }
+
+
+ input[type=text], [type=number], [type=email]  {
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    display: inline-block;
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    width: 20em;
+}
+
+select {
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    display: inline-block; 
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    width:20em;
+}
+
+input[type=submit] {
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left: 7em;
+    width:8em;
+}
+input[type=button] {
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left: 4em;
+}
+
+input[type=checkbox] {
+    
+    margin-right: 0.5em;
+}
+
+#picker {
+    background-color: white;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 15.5em;
+    border: 0.05em solid black;
+}
+
+.div_forma {
+    margin: auto;
+  }
+
+#odabir_zadataka {
+    width:10em;
+    margin-right:-2em;
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>Dodavanje zadatka</title>
+        <link rel="stylesheet" href="addZadatak.css">
+        <link rel="stylesheet" href="header_footer.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="header">           
+            <img id="logo" src="logo.png" alt="Slika logo">
+            
+            <div id="meni">
+                <ul>
+                    <li><a href="zadaci.html">Pregled godina</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="commiti.html">Commiti</a></li>
+                </ul>
+            </div>
+            <div id="trenutna_stranica">Dodavanje zadatka</div>
+        </div>
+        <div id="glavniSadrzaj">
+            <div id="novi">              
+                <div id="div_forma">
+                    <div id="tekst"><b>Novi zadatak</b></div>
+                    <form id="noviZadatak">
+                        <label>Naziv zadatka</label>
+                        <br>
+                        <input type="text" name="naziv" required>
+                        <br>
+                        <label>Tekst postavke</label>
+                        <br>
+                        <input type="file" name="postavka" required>
+                        <br>
+                        <label>Vježbe/Spirale</label>
+                        <br>
+                        <select id="odabir_vjezbe">
+                            <option value="">Vježba 1</option>
+                            <option value="">Vježba 2</option>
+                            <option value="">Vježba 3</option>
+                            <option value="">Spirala 1</option>
+                        </select>
+                        <br>
+                        <input type="submit" name="dodaj">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_tekst">Web Tehnologije 2018/19</div>
+        </div>
+    </body>
+</html>

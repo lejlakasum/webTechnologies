@@ -1,0 +1,71 @@
+{
+  "testId" : "1-addstudent600.gspec",
+  "name" : "addStudent600.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addStudent600.gspec --url http://localhost/addStudent.html --size 590x768 --htmlreport addStudent600",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addStudent600.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541124969679,
+          "sections" : [ {
+            "name" : "glavni",
+            "place" : {
+              "filePath" : "addStudent600.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent600.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "glavni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent600.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above footer 0 px",
+                "highlight" : [ "glavni", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "addStudent600.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "glavni" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "footer" : {
+              "area" : [ 0, 1245, 562, 48 ]
+            },
+            "glavni" : {
+              "area" : [ 0, 285, 562, 960 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 562, 285 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541124968430,
+        "type" : "node"
+      } ],
+      "time" : 1541124962705,
+      "type" : "node"
+    } ]
+  }
+}

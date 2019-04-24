@@ -1,0 +1,108 @@
+{
+  "testId" : "1-studenti.gspec",
+  "name" : "studenti.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  studenti.gspec --url http://localhost/studenti.html --size 1024x768 --htmlreport Studenti",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: studenti.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541125306079,
+          "sections" : [ {
+            "name" : "Lijevo",
+            "place" : {
+              "filePath" : "studenti.gspec",
+              "lineNumber" : 8
+            },
+            "objects" : [ {
+              "name" : "lijevo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "width ~ 35% of screen/width",
+                "highlight" : [ "lijevo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "below header 0 px",
+                "highlight" : [ "lijevo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "above footer 0 px",
+                "highlight" : [ "lijevo", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "left-of glavni 0 px",
+                "highlight" : [ "lijevo", "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "aligned horizontally all glavni",
+                "highlight" : [ "lijevo", "glavni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Glavni",
+            "place" : {
+              "filePath" : "studenti.gspec",
+              "lineNumber" : 17
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width ~ 65% of screen/width",
+                "highlight" : [ "glavni" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "lijevo" : {
+              "area" : [ 0, 176, 348, 512 ]
+            },
+            "footer" : {
+              "area" : [ 0, 688, 996, 48 ]
+            },
+            "glavni" : {
+              "area" : [ 348, 176, 647, 512 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 996, 176 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541125304459,
+        "type" : "node"
+      } ],
+      "time" : 1541125298776,
+      "type" : "node"
+    } ]
+  }
+}

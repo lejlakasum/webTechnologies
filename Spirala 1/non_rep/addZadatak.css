@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+    background-color: #232427;
+}
+
+    #glavniSadrzaj {
+        width: 85%;
+        overflow:hidden;
+        margin-left: auto;
+        margin-right: auto;
+        height: 35em;
+        background-color: rgb(230, 226, 226);
+            
+    }
+
+@media screen and (max-width:600px) {
+    #glavniSadrzaj {
+        width: 100%;
+        overflow:hidden;
+        margin-left: auto;
+        margin-right: auto;;
+        height: 30em;
+        background-color: rgb(230, 226, 226);  
+    }
+}
+
+#novi {
+    width: 80%;
+    background-color: rgb(211, 210, 210);
+    box-shadow: 5px 10px 8px #888888;
+    margin: auto;
+    overflow:hidden;
+    margin-top: 3em;
+    height: 25em;
+    display: flex; 
+}
+
+#noviZadatak {
+    padding: 1em;   
+}
+
+#tekst {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+label {
+   font-size:1em;
+}
+
+input[type=text]  {
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:1.5em;
+    display: inline-block;
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+}
+input[type=file]  {
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:1.5em;
+    margin-left:-0.4em;  
+    
+}
+
+select {
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    display: inline-block; 
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    width:13em;
+}
+
+input[type=submit] {
+    width: 7em;
+    border: 1px solid #9c9797;
+    border-radius: 0.3em;
+    padding:0.5em;
+    margin-top:1.5em;
+    margin-bottom:0.5em;
+    margin-left: 7em;
+}
+
+
+
+#div_forma {
+  margin: auto;
+}

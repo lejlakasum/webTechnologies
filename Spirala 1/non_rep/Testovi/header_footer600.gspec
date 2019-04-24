@@ -1,0 +1,30 @@
+@objects
+    header #header
+    footer #footer
+    logo //div[@id='header']/img
+    meni //div[@id='header']/div[@id='meni']
+    naslov //div[@id='header']/div[@id='trenutna_stranica']
+
+= header =
+    header:
+        above footer
+        width 100 % of screen/width
+
+= header =
+    footer:
+        below header
+        width 100 % of screen/width
+
+= naslov =
+    naslov:
+        inside header
+        below meni
+
+= meni =
+    meni:
+        inside header
+        below logo
+
+= logo =
+    logo:
+        inside header

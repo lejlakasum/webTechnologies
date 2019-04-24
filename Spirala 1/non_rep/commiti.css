@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+}
+
+#glavni {
+    background-color: rgb(230, 226, 226);
+    padding:3em;
+  
+}
+
+
+.tekst {
+    text-align:left;
+    padding-bottom:1em;
+}
+
+#commiti, th, td {
+    
+    border: 0.1em solid #6c689e;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding:1em;
+
+}
+td {
+    text-align: center;
+    background-color:white;
+}
+th {
+    background-color: #c7c2c2;
+}

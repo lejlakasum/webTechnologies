@@ -1,0 +1,41 @@
+@objects
+    header #header
+    footer #footer
+    cetvrtina-* .cetvrtina
+    formaDiv //div[@class='cetvrtina']/div[@id='forma']
+    forma //div[@class='cetvrtina']/div[@id='forma']/form
+    input //div[@class='cetvrtina']/div[@id='forma']/form/input
+    search //div[@class='cetvrtina']/div[@id='forma']/form/input[@type='submit']
+    polovina .polovina
+    folder-* //div[@class='polovina']/div[@class='folder']
+    item-* //div[@class='polovina']/div[@class='folder']/div[@class='item']
+    
+= cetvrtina =
+    cetvrtina-*:
+        width 25 % of screen/width
+        below header 0 px
+        above footer 0px
+        aligned horizontally all polovina
+
+
+= polovina =
+    polovina:
+        width 50 % of screen/width
+        right-of cetvrtina-2
+
+= input =
+    input:
+        inside forma
+
+= search =
+    search:
+        inside forma
+
+= item =
+    @for [1 - 6] as index
+        item-${index}:
+            inside folder-1
+
+    @for [7 - 10] as index
+        item-${index}:
+            inside folder-2

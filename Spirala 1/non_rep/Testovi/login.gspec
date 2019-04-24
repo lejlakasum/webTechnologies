@@ -1,0 +1,14 @@
+@objects
+
+    loginBox #login
+        forma #login_form
+
+
+= loginBox =
+    loginBox:
+        centered all inside screen
+
+= Forma =
+    loginBox.forma:
+        inside loginBox
+        centered all inside loginBox

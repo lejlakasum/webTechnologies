@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>Dodavanje vjezbe</title>
+        <link rel="stylesheet" href="addVjezba.css">
+        <link rel="stylesheet" href="header_footer.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="header">           
+            <img id="logo" src="logo.png" alt="Slika logo">
+            
+            <div id="meni">
+                <ul>
+                    <li><a href="zadaci.html">Pregled godina</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="commiti.html">Commiti</a></li>
+                </ul>
+            </div>
+            <div id="trenutna_stranica">Dodavanje vježbe/spirale</div>
+        </div>
+        <div id="glavniSadrzaj">
+            <div class="folder">
+                <div class="div_forma">
+                <div class="tekst">Dodavanje postojeće vježbe/spirale</div>
+                    <form name="fPostojeca" class="forma">
+                        <label>Godina</label>
+                        <br>
+                        <select name="sGodine">
+                            <option>2017/18</option>
+                            <option>2018/19</option>
+                        </select>
+                        <br>
+                        <label>Vježbe/Spirale</label>
+                        <br>
+                        <select name="sVjezbe">
+                            <option>Vježba 1</option>
+                            <option>Vježba 2</option>
+                            <option>Spirala 1</option>
+                        </select>
+                        <br>
+                        <input type="submit" name="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="folder">
+                <div class="div_forma">
+                    <div class="tekst">Nova vježba/spirala</div>
+                    <form name="fNova" class="forma">
+                        <label>Naziv vježbe</label>
+                        <br>
+                        <input type="text" name="nazivVjezbe">
+                        <br>
+                        <label>Godina</label>
+                        <br>
+                        <select name="sGodine">
+                            <option>2017/18</option>
+                            <option>2018/19</option>
+                        </select>
+                        <br>
+                        <div id="picker">
+                            Zadatak 1<br>
+                            Zadatak 2<br>
+                            Zadatak 3<br>
+                        </div>
+                        <br>
+                        <select name="sZadatak" id="odabir_zadataka">
+                            <option>Zadatak X</option>
+                        </select>
+                        <input type="button" name="tZadatak" value="Dodaj zadatak">
+                        <br>
+                        <input type="checkbox" name="spirala"><label>Spirala</label>
+                        <input type="submit" value="Dodaj">
+                        
+                    </form>
+                </div>  
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_tekst">Web Tehnologije 2018/19</div>
+        </div>
+    </body>
+</html>
